@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpinionPulse</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>OpinionPulse</h1>
+      <p>Analyze the tone of your text instantly ✨</p>
+    </header>
+
+    <main>
+      <textarea id="inputText" placeholder="Type your message here..."></textarea>
+      <button onclick="analyzeSentiment()">Analyze Mood</button>
+      <div id="result" class="result">Your sentiment will appear here.</div>
+    </main>
+
+    <footer>
+      <p>Powered by Flask & Machine Learning 💡</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
