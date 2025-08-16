@@ -1,6 +1,6 @@
  opinion_pulse – Sentiment Analysis Web App
 
-MoodMetrics is a Sentiment Analysis Application that classifies user text into Positive, Negative, or Neutral sentiments using Natural Language Processing (NLP) techniques.
+opinionpulse is a Sentiment Analysis Application that classifies user text into Positive, Negative using Natural Language Processing (NLP) techniques.
 It combines Flask (backend API), a creative frontend, and an ML model for an end-to-end solution.
 
 ---
